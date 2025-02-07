@@ -2,6 +2,8 @@
 
 This is a customizable desktop weather widget built with Electron.
 
+![example widget](examplewidget.png)
+
 ## System Requirements
 
 - Node.js 16+
