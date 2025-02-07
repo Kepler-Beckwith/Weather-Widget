@@ -1,0 +1,9 @@
+{
+  "weather": {
+    "apiKey": "YOUR_OPENWEATHERMAP_API_KEY",
+    "location": {
+      "lat": "YOUR_LATITUDE",
+      "lon": "YOUR_LONGITUDE"
+    }
+  }
+}

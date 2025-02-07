@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Widget</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 15px;
+            background-color: rgba(16, 0, 94, 0.832);
+            color: white;
+            font-family: Arial, sans-serif;
+            border-radius: 10px;
+            -webkit-app-region: drag;
+            overflow: hidden;
+            width: 250px;
+        }
+
+        #weather-container {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .weather-icon {
+            width: 50px;
+            height: 50px;
+            grid-row: span 2;
+        }
+
+        .temperature {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .details {
+            font-size: 12px;
+            opacity: 0.9;
+            margin-top: 5px;
+        }
+
+        .location {
+            font-size: 16px;
+            font-weight: bold;
+            grid-column: span 2;
+            text-align: center;
+        }
+
+        .refresh-button {
+            -webkit-app-region: no-drag;
+            background: transparent;
+            border: none;
+            color: white;
+            cursor: pointer;
+            opacity: 0.7;
+            font-size: 12px;
+            grid-column: span 2;
+            padding: 5px;
+        }
+
+        .refresh-button:hover {
+            opacity: 1;
+        }
+
+        .forecast-container {
+            margin-top: 15px;
+            grid-column: span 2;
+            overflow-x: auto;
+            -webkit-app-region: no-drag;
+            white-space: nowrap;
+            scrollbar-width: none;
+        }
+
+        .forecast-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        .forecast-item {
+            display: inline-block;
+            text-align: center;
+            margin-right: 15px;
+            min-width: 45px;
+        }
+
+        .forecast-icon {
+            width: 30px;
+            height: 30px;
+        }
+
+        .forecast-temp {
+            font-size: 12px;
+            margin-top: 2px;
+        }
+
+        .forecast-time {
+            font-size: 10px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div id="weather-container">
+        <div class="location" id="location">Loading...</div>
+        <img class="weather-icon" id="weather-icon" src="" alt="Weather">
+        <div>
+            <div class="temperature" id="temperature"></div>
+            <div class="details">
+                Feels like <span id="feels-like"></span>
+                • <span id="description"></span>
+            </div>
+        </div>
+        <div class="details" id="additional-info"></div>
+        <div class="forecast-container" id="forecast"></div>
+        <button class="refresh-button" id="refresh">Refresh</button>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
