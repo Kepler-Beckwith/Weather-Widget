@@ -50,9 +50,9 @@ Update config.json with your details
 Development
 ## Built using:
 
-Electron
-TypeScript
-OpenWeatherMap API
+* Electron
+* TypeScript
+* OpenWeatherMap API
 
 ## Known Issues
 
