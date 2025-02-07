@@ -56,11 +56,11 @@ Development
 
 ## Known Issues
 
-*Currently tested only on Ubuntu
+* Currently tested only on Ubuntu
 
-*Transparency effects may vary by desktop environment
+* Transparency effects may vary by desktop environment
 
-*Manual refresh required after system sleep
+* Manual refresh required after system sleep
 
 ## License
 MIT License
