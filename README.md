@@ -2,6 +2,7 @@
 
 This is a customizable desktop weather widget built with Electron.
 
+What the default widget looks like:
 ![example widget](examplewidget.png)
 
 ## System Requirements
