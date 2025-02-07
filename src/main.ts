@@ -22,8 +22,7 @@ function createWindow() {
     skipTaskbar: true,
     backgroundColor: '#00ffffff',
     hasShadow: false,
-    roundedCorners: true,
-    // Add these properties for rounded corners
+    roundedCorners: false,
     titleBarOverlay: {
       color: '#00ffffff',
       symbolColor: '#00ffffff'
