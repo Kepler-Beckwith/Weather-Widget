@@ -50,7 +50,6 @@ Open Google Maps
 Right-click your location
 Copy the coordinates
 Update config.json with your details
-Development
 ## Built using:
 
 * Electron
