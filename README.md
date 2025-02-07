@@ -4,7 +4,6 @@ This is a customizable desktop weather widget built with Electron.
 
 ## System Requirements
 
-- Ubuntu 22.04+
 - Node.js 16+
 - npm 8+
 
@@ -42,7 +41,7 @@ cp config.template.json config.json
 npm start
 ```
 ## Configuration
-Get an API key from OpenWeatherMap
+Get an API key from https://openweathermap.org/
 Find your coordinates:
 Open Google Maps
 Right-click your location
