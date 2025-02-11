@@ -64,6 +64,4 @@ Update config.json with your details
 
 * Manual refresh required after system sleep
 
-## License
-MIT License
 
