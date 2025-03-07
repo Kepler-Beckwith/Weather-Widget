@@ -5,7 +5,7 @@
     "main": "dist/main.js",
     "scripts": {
       "build": "tsc && cp src/index.html dist/",
-      "start": "npm run build && electron ."
+      "start": "electron ."
     },
     "dependencies": {
       "electron-store": "^8.1.0"
